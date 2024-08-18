@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peanut Butter Health</title>
+</head>
+<style>
+  img {
+    display: block;
+    margin: 30px auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+
+
+  }
+
+  button {
+    margin: 20px auto;
+    display: block;
+    color: black;
+    font-size: 16px;
+    background: rgb(211, 39, 211);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in-out;
+  }
+
+  button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    color: beige;
+    background: black;
+  }
+
+  body {
+    background: plum;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 10px;
+
+  }
+
+  .image {
+    display: flex;
+    gap: 4px;
+  }
+
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+<body>
+  <strong>
+    <h2>HEALTH HAVEN</h2>
+  </strong>
+
+
+  <h1> Nutty Goodness for a Happy Heart!</h1>
+  <div class="image">
+    <img
+      src="https://www.culinaryhill.com/wp-content/uploads/2019/04/Homemade-Peanut-Butter-HRSquare-Culinary-Hill10a.jpg"
+      width=200 />
+    <img src="https://www.purelykaylie.com/wp-content/uploads/2021/03/chocolate-peanut-butter-smoothie-bowl-1.jpg"
+      width=200 />
+    <img
+      src="https://www.twopeasandtheirpod.com/wp-content/uploads/2021/07/Salted-Pretzel-Peanut-Butter-Cup-Cookies-22-500x500.jpg"
+      width=200 />
+    <img src="https://www.purelykaylie.com/wp-content/uploads/2022/04/chocolate-banana-smoothie-5.jpg" width=200 />
+  </div>
+
+  <br />
+  <a
+    href="https://www.webmd.com/diet/peanut-butter-good-for-you#:~:text=Improved%20heart%20health,contains%20omega%2D6%20fatty%20acid.">
+    Read more
+  </a>
+
+  <p>
+    Peanut butter can be a great ingredient for adding flavor, texture, and nutritional benefits to a wide variety of
+    dishes.
+    One of the main fats in peanut butter is oleic acid. When substituted for other fats in your diet, oleic acid helps
+    maintain good cholesterol, blood sugar, and blood pressure. Managing these levels in your body can lower the risk of
+    heart disease.
+    <br />
+    You can get all your favourite snacks,drinks,sauces and more with some peanut butter on our online shop,<strong>
+      HEALTH HAVEN!</strong>
+
+  </p>
+  <button>
+    Order Here
+  </button>
+  <script>
+    function placeOrder() {
+      let name = prompt("What is your name?");
+      let orderName = prompt("What would you like to oder?");
+      alert(
+        "Thank you " +
+        name + " ," + "your" + " " + orderName + " " +
+        "will be ready shortly, Enjoy!"
+      );
+
+
+    }
+    let placeOrderButton = document.querySelector("button");
+    placeOrderButton.addEventListener("click", placeOrder);
+
+  </script>
+
+</body>
+
+</html>
